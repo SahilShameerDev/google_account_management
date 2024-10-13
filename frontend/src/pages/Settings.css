@@ -1,0 +1,78 @@
+/* Google color theme */
+:root {
+    --primary-color: #4285f4;
+    --secondary-color: #fbbc05;
+    --background-color: #f1f3f4;
+    --button-color: #34a853;
+    --text-color: #202124;
+  }
+  
+  .settings-container {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 20px;
+    margin: 20px auto;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: var(--primary-color);
+    text-align: center;
+  }
+  
+  .settings-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    color: var(--text-color);
+  }
+  
+  .input-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .input-group input:focus {
+    border-color: var(--primary-color);
+    outline: none;
+    box-shadow: 0 0 4px rgba(66, 133, 244, 0.3);
+  }
+  
+  .save-btn {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .save-btn:hover {
+    background-color: var(--button-color);
+  }
+  
+  .message {
+    font-size: 14px;
+    color: var(--text-color);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
