@@ -52,6 +52,9 @@ function Profile() {
       <Link className="service-btn" to="/service">
         Go to Services
       </Link>
+      <Link className="settings-btn" to="/settings">
+        Go to Settings
+      </Link>
       <br />
       <br />
       {isAdmin && (

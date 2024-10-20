@@ -25,7 +25,7 @@
     color: #e74c3c;
   }
   
-  .service-btn, .admin-btn {
+  .service-btn, .admin-btn, .settings-btn {
     padding: 10px 20px;
     font-size: 1rem;
     border-radius: 5px;
@@ -36,11 +36,11 @@
     transition: background-color 0.3s ease;
   }
   
-  .service-btn:hover, .admin-btn:hover {
+  .service-btn:hover, .admin-btn:hover, .settings-btn:hover {
     background-color: #357ABD;
   }
   
-  .service-btn {
+  .service-btn, .settings-btn {
     margin-bottom: 10px;
   }
   
@@ -61,7 +61,7 @@
       font-size: 1rem;
     }
   
-    .service-btn, .admin-btn {
+    .service-btn, .admin-btn, .settings-btn {
       font-size: 0.9rem;
     }
   }
@@ -84,4 +84,3 @@
   .logout-btn:hover {
     opacity: 0.9;
   }
-  
